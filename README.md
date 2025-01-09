@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Foodie Landing Page
 
-## Getting Started
+A modern and responsive landing page tailored for food businesses. Built with **Next.js** and styled using **Tailwind CSS**, this project provides a user-friendly interface with advanced features like sliders, form validation, and state management.
 
-First, run the development server:
+## 🛠️ Features
+
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Interactive Components**: Includes sliders, forms, and dynamic sections.
+- **State Management**: Implemented using Zustand for efficient data flow.
+- **Form Validation**: Powered by React Hook Form and Yup.
+- **Optimized Performance**: Leveraging Next.js for fast loading and seamless routing.
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/Foodie-Landing-Page-main
+├── public/         # Static files
+├── src/
+│ ├── components/   # Reusable components
+│ ├── pages/        # Next.js page routes
+│ ├── styles/       # Tailwind CSS and global styles
+│ ├── data/         # Dummy data and configuration
+│ └── store/        # Zustand state management
+├── package.json    # Dependencies and scripts
+└── README.md       # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Node.js >= 14
+- npm, yarn, or pnpm for package management
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
 
-## Learn More
+   ```bash
+   git clone https://github.com/aurelioo29/Foodie-Landing-Page.git
+   cd Foodie-Landing-Page
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Run the development server:
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Open your browser at http://localhost:3000.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🌟 Technologies Used
+
+- Next.js: Framework for server-rendered React applications.
+- Tailwind CSS: Utility-first CSS framework for styling.
+- Zustand: Lightweight state management solution.
+- React Splide: Powerful slider/carousel component.
+
+## 🤝 Contributions
+
+Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+Developed with ❤️ by **Aurelio**.
